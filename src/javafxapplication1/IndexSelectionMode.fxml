@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" alignment="CENTER" layoutX="227.0" layoutY="59.0" minHeight="16" minWidth="69" prefHeight="42.0" prefWidth="164.0" text="Select Index Mode">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Label>
+      <Button fx:id="buildIndex" contentDisplay="CENTER" layoutX="214.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleIndexMode" prefHeight="25.0" prefWidth="190.0" styleClass="borders" text="Build Index">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="queryIndex" contentDisplay="CENTER" layoutX="214.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleIndexMode" prefHeight="25.0" prefWidth="190.0" styleClass="borders" text="Query Index">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+    </children>
+   <stylesheets>
+      <URL value="@../../../../../Desktop/style.css" />
+      <URL value="@../style.css" />
+   </stylesheets>
+</AnchorPane>

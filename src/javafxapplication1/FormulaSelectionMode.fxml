@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="203.0" layoutY="60.0" minHeight="16.0" minWidth="69.0" prefHeight="27.0" prefWidth="213.0" text="Variant tf-idf formulas" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Label>
+      <Button fx:id="defaultFormula" layoutX="214.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleFormula" prefHeight="25.0" prefWidth="190.0" styleClass="borders" text="Default">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="idtfdFormula" layoutX="214.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleFormula" prefHeight="25.0" prefWidth="190.0" styleClass="borders" text="tf-idf">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="okapiFormula" layoutX="214.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleFormula" prefHeight="25.0" prefWidth="190.0" styleClass="borders" text="Okapi BM25">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="wackyFormula" layoutX="214.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleFormula" prefHeight="25.0" prefWidth="190.0" styleClass="borders" text="Wacky">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

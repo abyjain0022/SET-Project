@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <Label alignment="CENTER" layoutX="209.0" layoutY="115.0" minHeight="16.0" minWidth="69.0" prefHeight="42.0" prefWidth="257.0" text="Select Query Mode">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Label>
+      <Button fx:id="booleanRetrieval" layoutX="184.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleQueryMode" prefHeight="42.0" prefWidth="307.0" styleClass="borders" text="Boolean Retrieval Mode">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="rankedRetrieval" layoutX="184.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleQueryMode" prefHeight="42.0" prefWidth="307.0" styleClass="borders" text="Ranked Retrieval Mode">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <LineChart fx:id="lineChart" layoutX="69.0" layoutY="35.0" prefHeight="400.0" prefWidth="523.0">
+        <xAxis>
+          <NumberAxis autoRanging="false" label="Recall" side="BOTTOM" tickLabelGap="0.1" upperBound="1.0" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" autoRanging="false" label="Precision" side="LEFT" tickLabelGap="0.1" upperBound="1.0" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="backToSearchScreen" layoutX="272.0" layoutY="467.0" mnemonicParsing="false" onAction="#handleBackToSearchScreen" prefHeight="25.0" prefWidth="157.0" text="Back" />
+   </children>
+</AnchorPane>
